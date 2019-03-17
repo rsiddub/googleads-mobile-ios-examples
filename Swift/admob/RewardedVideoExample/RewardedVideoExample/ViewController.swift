@@ -65,6 +65,15 @@ class ViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertVi
   /// Text that indicates current coin count.
   @IBOutlet weak var coinCountLabel: UILabel!
 
+    @IBOutlet weak var startGameButton: UIButton!
+    @IBAction func StartGameButton(_ sender: Any) {
+        
+        startNewGame();
+        startGameButton.isHidden = true;
+        playAgainButton.isHidden = false;
+        gameText.isHidden = false;
+    }
+    
   override func viewDidLoad() {
     super.viewDidLoad()
     rewardBasedVideo = GADRewardBasedVideoAd.sharedInstance()
@@ -80,8 +89,9 @@ class ViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertVi
     NotificationCenter.default.addObserver(self,
         selector: #selector(ViewController.applicationDidBecomeActive(_:)),
         name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)
-
-    startNewGame()
+    //startNewGame();
+    playAgainButton.isHidden = true;
+    gameText.isHidden = true;
   }
 
   // MARK: Game logic
@@ -93,7 +103,7 @@ class ViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertVi
 
     if !adRequestInProgress && rewardBasedVideo?.isReady == false {
       rewardBasedVideo?.load(GADRequest(),
-          withAdUnitID: "ca-app-pub-3940256099942544/1712485313")
+          withAdUnitID: "ca-app-pub-1154410420357813/6968179284")
       adRequestInProgress = true
     }
 

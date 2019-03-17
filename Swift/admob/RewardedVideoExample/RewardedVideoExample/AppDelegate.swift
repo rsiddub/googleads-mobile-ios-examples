@@ -15,6 +15,8 @@
 //
 
 import GoogleMobileAds
+import AdColonyAdapter
+import UnityAdapter
 import UIKit
 
 @UIApplicationMain
@@ -25,9 +27,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(_ application: UIApplication,
       didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+    NSLog("SDK Version: %@", GADRequest.sdkVersion())
+    
     // Initialize Google Mobile Ads SDK
-    GADMobileAds.configure(withApplicationID: "ca-app-pub-3940256099942544~1458002511")
-
+    GADMobileAds.configure(withApplicationID: "ca-app-pub-1154410420357813/6968179284")
+    let ads = GADMobileAds.sharedInstance()
+    ads.start { status in
+        // Optional: Log each adapter's initialization latency.
+        let adapterStatuses = status.adapterStatusesByClassName
+        for adapter in adapterStatuses {
+            let adapterStatus = adapter.value
+            NSLog("Adapter Name: %@, Description: %@, Latency: %f", adapter.key,
+                  adapterStatus.description, adapterStatus.latency)
+        }
+        // Start loading ads here...
+    }
     return true
   }
 
