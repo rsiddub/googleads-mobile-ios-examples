@@ -14,6 +14,8 @@
 		4528D0082243D7B600F4F93B /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D0072243D7B600F4F93B /* GoogleUtilities.framework */; };
 		4528D00A2243D8C500F4F93B /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D0092243D8C500F4F93B /* AdColony.framework */; };
 		4528D00C2243D8D500F4F93B /* AdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */; };
+		4528D00E2243DFEF00F4F93B /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D00D2243DFEF00F4F93B /* UnityAds.framework */; };
+		4528D0102243E17400F4F93B /* UnityAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D00F2243E17400F4F93B /* UnityAdapter.framework */; };
 		48229F65DC7C0724955DC0BC /* Pods_RewardedVideoExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B0DBE7BC0CA75849EB133A /* Pods_RewardedVideoExample.framework */; };
 		849326B61B066A7F00863759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B51B066A7F00863759 /* AppDelegate.swift */; };
 		849326B81B066A7F00863759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B71B066A7F00863759 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 		4528D0072243D7B600F4F93B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
 		4528D0092243D8C500F4F93B /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = Pods/AdColony/AdColony.framework; sourceTree = "<group>"; };
 		4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColonyAdapter.framework; path = "Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1/AdColonyAdapter.framework"; sourceTree = "<group>"; };
+		4528D00D2243DFEF00F4F93B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = Pods/UnityAds/UnityAds.framework; sourceTree = "<group>"; };
+		4528D00F2243E17400F4F93B /* UnityAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAdapter.framework; path = "Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3/UnityAdapter.framework"; sourceTree = "<group>"; };
 		4CA4D8D102893197AB1355A1 /* Pods-RewardedVideoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardedVideoExample.release.xcconfig"; path = "Target Support Files/Pods-RewardedVideoExample/Pods-RewardedVideoExample.release.xcconfig"; sourceTree = "<group>"; };
 		69B0DBE7BC0CA75849EB133A /* Pods_RewardedVideoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardedVideoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849326B01B066A7F00863759 /* RewardedVideoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardedVideoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +64,8 @@
 				4528CFF72243D05900F4F93B /* nanopb.framework in Frameworks */,
 				48229F65DC7C0724955DC0BC /* Pods_RewardedVideoExample.framework in Frameworks */,
 				4528D00C2243D8D500F4F93B /* AdColonyAdapter.framework in Frameworks */,
+				4528D0102243E17400F4F93B /* UnityAdapter.framework in Frameworks */,
+				4528D00E2243DFEF00F4F93B /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +97,8 @@
 		849326A71B066A7E00863759 = {
 			isa = PBXGroup;
 			children = (
+				4528D00F2243E17400F4F93B /* UnityAdapter.framework */,
+				4528D00D2243DFEF00F4F93B /* UnityAds.framework */,
 				4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */,
 				4528D0092243D8C500F4F93B /* AdColony.framework */,
 				4528D0072243D7B600F4F93B /* GoogleUtilities.framework */,
@@ -362,6 +370,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Pods/AdColony",
 					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1",
+					"$(PROJECT_DIR)/Pods/UnityAds",
+					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3",
 				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -385,6 +395,8 @@
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/Pods/AdColony",
 					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1",
+					"$(PROJECT_DIR)/Pods/UnityAds",
+					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3",
 				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
