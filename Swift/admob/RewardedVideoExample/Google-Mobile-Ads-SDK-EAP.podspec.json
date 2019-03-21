@@ -1,6 +1,6 @@
 {
   "name": "Google-Mobile-Ads-SDK-EAP",
-  "version": "7.36.0",
+  "version": "7.42.0",
   "summary": "Monetize your mobile applications with Google ads",
   "description": "The Google Mobile Ads SDK is the latest generation in Google mobile advertising featuring refined ad formats and streamlined APIs for access to mobile ad networks and advertising solutions. The SDK enables mobile app developers to maximize their monetization on Android and iOS. The Google Mobile Ads SDK is available to Google AdMob and Google Ad Manager customers.",
   "homepage": "https://developers.google.com/admob/ios/early-access/open-bidding",
@@ -13,9 +13,9 @@
     "ios": "6.0"
   },
   "source": {
-    "http": "https://dl.google.com/googleadmobadssdk/googlemobileadssdkios-7.36.0-eap.zip"
+    "http": "https://dl.google.com/googleadmobadssdk/googlemobileadssdkios-7.42.0.zip"
   },
-  "preserve_paths": "GoogleMobileAdsSdkiOS-7.36.0/README.txt",
+  "preserve_paths": "GoogleMobileAdsSdkiOS-7.42.0/README.txt",
   "frameworks": [
     "AudioToolBox",
     "AVFoundation",
@@ -41,7 +41,7 @@
     "SafariServices",
     "WebKit"
   ],
-  "vendored_frameworks": "GoogleMobileAdsSdkiOS-7.36.0/GoogleMobileAds.framework",
+  "vendored_frameworks": "GoogleMobileAdsSdkiOS-7.42.0/GoogleMobileAds.framework",
   "libraries": [
     "z",
     "sqlite3"

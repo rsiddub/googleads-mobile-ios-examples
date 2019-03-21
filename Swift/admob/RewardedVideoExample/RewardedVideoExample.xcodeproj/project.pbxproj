@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		450D218C223E43370030076B /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D218B223E43360030076B /* AdColony.framework */; };
-		450D218E223E434A0030076B /* GoogleMobileAdsSdkiOS-7.36.0 in Resources */ = {isa = PBXBuildFile; fileRef = 450D218D223E434A0030076B /* GoogleMobileAdsSdkiOS-7.36.0 */; };
-		450D2194223E43A20030076B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D2193223E43A20030076B /* GoogleMobileAds.framework */; };
-		450D2196223E44880030076B /* AdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D2195223E44880030076B /* AdColonyAdapter.framework */; };
 		450D2198223E44940030076B /* UnityAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D2197223E44930030076B /* UnityAdapter.framework */; };
 		450D219A223E496C0030076B /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D2199223E496C0030076B /* GoogleAppMeasurement.framework */; };
 		450D219C223E49920030076B /* UnityAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450D219B223E49920030076B /* UnityAds.framework */; };
+		45A5EF372243B028002099AD /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A5EF362243B028002099AD /* GoogleMobileAds.framework */; };
+		45A5EF392243B9D7002099AD /* AdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45A5EF382243B9D7002099AD /* AdColonyAdapter.framework */; };
 		849326B61B066A7F00863759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B51B066A7F00863759 /* AppDelegate.swift */; };
 		849326B81B066A7F00863759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B71B066A7F00863759 /* ViewController.swift */; };
 		849326BB1B066A7F00863759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849326B91B066A7F00863759 /* Main.storyboard */; };
@@ -23,12 +22,11 @@
 
 /* Begin PBXFileReference section */
 		450D218B223E43360030076B /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = Pods/AdColony/AdColony.framework; sourceTree = "<group>"; };
-		450D218D223E434A0030076B /* GoogleMobileAdsSdkiOS-7.36.0 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoogleMobileAdsSdkiOS-7.36.0"; path = "Pods/Google-Mobile-Ads-SDK-EAP/GoogleMobileAdsSdkiOS-7.36.0"; sourceTree = "<group>"; };
-		450D2193223E43A20030076B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK-EAP/GoogleMobileAdsSdkiOS-7.36.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
-		450D2195223E44880030076B /* AdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColonyAdapter.framework; path = "Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1/AdColonyAdapter.framework"; sourceTree = "<group>"; };
 		450D2197223E44930030076B /* UnityAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAdapter.framework; path = "Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3/UnityAdapter.framework"; sourceTree = "<group>"; };
 		450D2199223E496C0030076B /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
 		450D219B223E49920030076B /* UnityAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UnityAds.framework; path = Pods/UnityAds/UnityAds.framework; sourceTree = "<group>"; };
+		45A5EF362243B028002099AD /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "Pods/Google-Mobile-Ads-SDK-EAP/GoogleMobileAdsSdkiOS-7.42.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		45A5EF382243B9D7002099AD /* AdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColonyAdapter.framework; path = "../../../../../../../../../Downloads/adcolony/AdColonyAdapter-3.3.6.1/AdColonyAdapter.framework"; sourceTree = "<group>"; };
 		849326B01B066A7F00863759 /* RewardedVideoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardedVideoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849326B41B066A7F00863759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849326B51B066A7F00863759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,10 +42,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				450D2198223E44940030076B /* UnityAdapter.framework in Frameworks */,
-				450D2194223E43A20030076B /* GoogleMobileAds.framework in Frameworks */,
+				45A5EF392243B9D7002099AD /* AdColonyAdapter.framework in Frameworks */,
 				450D219A223E496C0030076B /* GoogleAppMeasurement.framework in Frameworks */,
-				450D2196223E44880030076B /* AdColonyAdapter.framework in Frameworks */,
 				450D218C223E43370030076B /* AdColony.framework in Frameworks */,
+				45A5EF372243B028002099AD /* GoogleMobileAds.framework in Frameworks */,
 				450D219C223E49920030076B /* UnityAds.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,12 +56,11 @@
 		849326A71B066A7E00863759 = {
 			isa = PBXGroup;
 			children = (
+				45A5EF382243B9D7002099AD /* AdColonyAdapter.framework */,
+				45A5EF362243B028002099AD /* GoogleMobileAds.framework */,
 				450D219B223E49920030076B /* UnityAds.framework */,
 				450D2199223E496C0030076B /* GoogleAppMeasurement.framework */,
 				450D2197223E44930030076B /* UnityAdapter.framework */,
-				450D2195223E44880030076B /* AdColonyAdapter.framework */,
-				450D2193223E43A20030076B /* GoogleMobileAds.framework */,
-				450D218D223E434A0030076B /* GoogleMobileAdsSdkiOS-7.36.0 */,
 				450D218B223E43360030076B /* AdColony.framework */,
 				849326B21B066A7F00863759 /* RewardedVideoExample */,
 				849326B11B066A7F00863759 /* Products */,
@@ -163,7 +160,6 @@
 				849326BB1B066A7F00863759 /* Main.storyboard in Resources */,
 				849326C01B066A7F00863759 /* LaunchScreen.xib in Resources */,
 				849326BD1B066A7F00863759 /* Images.xcassets in Resources */,
-				450D218E223E434A0030076B /* GoogleMobileAdsSdkiOS-7.36.0 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +301,7 @@
 					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3",
 					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
 					"$(PROJECT_DIR)/Pods/UnityAds",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK-EAP/GoogleMobileAdsSdkiOS-7.42.0",
 				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -329,6 +326,7 @@
 					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationUnity/UnityAdapter-3.0.0.3",
 					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
 					"$(PROJECT_DIR)/Pods/UnityAds",
+					"$(PROJECT_DIR)/Pods/Google-Mobile-Ads-SDK-EAP/GoogleMobileAdsSdkiOS-7.42.0",
 				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
