@@ -14,21 +14,35 @@
 //  limitations under the License.
 //
 
+
 import GoogleMobileAds
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-  var window: UIWindow?
-
-  func application(_ application: UIApplication,
-      didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-
-    // Initialize Google Mobile Ads SDK
-    GADMobileAds.sharedInstance().start(completionHandler: nil)
-
-    return true
-  }
-
+    
+    var window: UIWindow?
+    
+    func application(_ application: UIApplication,
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        NSLog("SDK Version: %@", GADRequest.sdkVersion())
+        
+        // Initialize Google Mobile Ads SDK
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-1154410420357813~2364981068")
+        let ads = GADMobileAds.sharedInstance()
+        ads.start { status in
+            // Optional: Log each adapter's initialization latency.
+            let adapterStatuses = status.adapterStatusesByClassName
+            for adapter in adapterStatuses {
+                let adapterStatus = adapter.value
+                NSLog("Adapter Name: %@, Description: %@, Latency: %f", adapter.key,
+                      adapterStatus.description, adapterStatus.latency)
+            }
+            // Start loading ads here...
+        }
+        return true
+    }
+    
 }
+

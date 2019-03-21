@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4528CFF12243D05900F4F93B /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528CFF02243D05900F4F93B /* GoogleAppMeasurement.framework */; };
+		4528CFF32243D05900F4F93B /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528CFF22243D05900F4F93B /* GoogleMobileAds.framework */; };
+		4528CFF52243D05900F4F93B /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528CFF42243D05900F4F93B /* GoogleUtilities.framework */; };
+		4528CFF72243D05900F4F93B /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528CFF62243D05900F4F93B /* nanopb.framework */; };
+		4528D0082243D7B600F4F93B /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D0072243D7B600F4F93B /* GoogleUtilities.framework */; };
+		4528D00A2243D8C500F4F93B /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D0092243D8C500F4F93B /* AdColony.framework */; };
+		4528D00C2243D8D500F4F93B /* AdColonyAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */; };
+		48229F65DC7C0724955DC0BC /* Pods_RewardedVideoExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B0DBE7BC0CA75849EB133A /* Pods_RewardedVideoExample.framework */; };
 		849326B61B066A7F00863759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B51B066A7F00863759 /* AppDelegate.swift */; };
 		849326B81B066A7F00863759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849326B71B066A7F00863759 /* ViewController.swift */; };
 		849326BB1B066A7F00863759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849326B91B066A7F00863759 /* Main.storyboard */; };
@@ -15,6 +23,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DD572EE28C4C0DC15E8EE3A /* Pods-RewardedVideoExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardedVideoExample.debug.xcconfig"; path = "Target Support Files/Pods-RewardedVideoExample/Pods-RewardedVideoExample.debug.xcconfig"; sourceTree = "<group>"; };
+		4528CFF02243D05900F4F93B /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = "../iosdownload/GoogleMobileAdsSdkiOS-7.42.0/GoogleAppMeasurement.framework"; sourceTree = "<group>"; };
+		4528CFF22243D05900F4F93B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = "../iosdownload/GoogleMobileAdsSdkiOS-7.42.0/GoogleMobileAds.framework"; sourceTree = "<group>"; };
+		4528CFF42243D05900F4F93B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = "../iosdownload/GoogleMobileAdsSdkiOS-7.42.0/GoogleUtilities.framework"; sourceTree = "<group>"; };
+		4528CFF62243D05900F4F93B /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = nanopb.framework; path = "../iosdownload/GoogleMobileAdsSdkiOS-7.42.0/nanopb.framework"; sourceTree = "<group>"; };
+		4528CFF82243D0F300F4F93B /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		4528CFF92243D0F400F4F93B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		4528CFFA2243D0F400F4F93B /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
+		4528CFFB2243D0F400F4F93B /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		4528D0022243D74100F4F93B /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleAppMeasurement.framework; path = Pods/GoogleAppMeasurement/Frameworks/GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		4528D0072243D7B600F4F93B /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = "<group>"; };
+		4528D0092243D8C500F4F93B /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = Pods/AdColony/AdColony.framework; sourceTree = "<group>"; };
+		4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColonyAdapter.framework; path = "Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1/AdColonyAdapter.framework"; sourceTree = "<group>"; };
+		4CA4D8D102893197AB1355A1 /* Pods-RewardedVideoExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RewardedVideoExample.release.xcconfig"; path = "Target Support Files/Pods-RewardedVideoExample/Pods-RewardedVideoExample.release.xcconfig"; sourceTree = "<group>"; };
+		69B0DBE7BC0CA75849EB133A /* Pods_RewardedVideoExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RewardedVideoExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		849326B01B066A7F00863759 /* RewardedVideoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RewardedVideoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849326B41B066A7F00863759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849326B51B066A7F00863759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,17 +52,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4528D0082243D7B600F4F93B /* GoogleUtilities.framework in Frameworks */,
+				4528CFF12243D05900F4F93B /* GoogleAppMeasurement.framework in Frameworks */,
+				4528D00A2243D8C500F4F93B /* AdColony.framework in Frameworks */,
+				4528CFF32243D05900F4F93B /* GoogleMobileAds.framework in Frameworks */,
+				4528CFF52243D05900F4F93B /* GoogleUtilities.framework in Frameworks */,
+				4528CFF72243D05900F4F93B /* nanopb.framework in Frameworks */,
+				48229F65DC7C0724955DC0BC /* Pods_RewardedVideoExample.framework in Frameworks */,
+				4528D00C2243D8D500F4F93B /* AdColonyAdapter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21F02E207965DCF97647B3D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD572EE28C4C0DC15E8EE3A /* Pods-RewardedVideoExample.debug.xcconfig */,
+				4CA4D8D102893197AB1355A1 /* Pods-RewardedVideoExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4528CFEF2243D05900F4F93B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4528CFF02243D05900F4F93B /* GoogleAppMeasurement.framework */,
+				4528D0022243D74100F4F93B /* GoogleAppMeasurement.framework */,
+				4528CFF22243D05900F4F93B /* GoogleMobileAds.framework */,
+				4528CFF42243D05900F4F93B /* GoogleUtilities.framework */,
+				4528CFF62243D05900F4F93B /* nanopb.framework */,
+				69B0DBE7BC0CA75849EB133A /* Pods_RewardedVideoExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		849326A71B066A7E00863759 = {
 			isa = PBXGroup;
 			children = (
+				4528D00B2243D8D500F4F93B /* AdColonyAdapter.framework */,
+				4528D0092243D8C500F4F93B /* AdColony.framework */,
+				4528D0072243D7B600F4F93B /* GoogleUtilities.framework */,
+				4528CFF82243D0F300F4F93B /* GoogleAppMeasurement.framework */,
+				4528CFFB2243D0F400F4F93B /* GoogleMobileAds.framework */,
+				4528CFF92243D0F400F4F93B /* GoogleUtilities.framework */,
+				4528CFFA2243D0F400F4F93B /* nanopb.framework */,
 				849326B21B066A7F00863759 /* RewardedVideoExample */,
 				849326B11B066A7F00863759 /* Products */,
+				4528CFEF2243D05900F4F93B /* Frameworks */,
+				21F02E207965DCF97647B3D6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 849326CF1B066A7F00863759 /* Build configuration list for PBXNativeTarget "RewardedVideoExample" */;
 			buildPhases = (
+				6E0BFFFE9EEDA2E493CFC400 /* [CP] Check Pods Manifest.lock */,
 				849326AC1B066A7E00863759 /* Sources */,
 				849326AD1B066A7E00863759 /* Frameworks */,
 				849326AE1B066A7E00863759 /* Resources */,
@@ -139,6 +202,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E0BFFFE9EEDA2E493CFC400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RewardedVideoExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		849326AC1B066A7E00863759 /* Sources */ = {
@@ -265,12 +353,20 @@
 		};
 		849326D01B066A7F00863759 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD572EE28C4C0DC15E8EE3A /* Pods-RewardedVideoExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/AdColony",
+					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1",
+				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.ads.RewardedVideoExample;
 				PRODUCT_NAME = RewardedVideoExample;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -280,12 +376,20 @@
 		};
 		849326D11B066A7F00863759 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA4D8D102893197AB1355A1 /* Pods-RewardedVideoExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/GoogleAppMeasurement/Frameworks",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/AdColony",
+					"$(PROJECT_DIR)/Pods/GoogleMobileAdsMediationAdColony/AdColonyAdapter-3.3.6.1",
+				);
 				INFOPLIST_FILE = RewardedVideoExample/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.google.ads.RewardedVideoExample;
 				PRODUCT_NAME = RewardedVideoExample;
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;

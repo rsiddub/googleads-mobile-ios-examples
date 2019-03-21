@@ -14,8 +14,8 @@
 //  limitations under the License.
 //
 
-import GoogleMobileAds
 import UIKit
+import GoogleMobileAds
 
 class ViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertViewDelegate {
 
@@ -93,7 +93,7 @@ class ViewController: UIViewController, GADRewardBasedVideoAdDelegate, UIAlertVi
 
     if !adRequestInProgress && rewardBasedVideo?.isReady == false {
       rewardBasedVideo?.load(GADRequest(),
-          withAdUnitID: "ca-app-pub-3940256099942544/1712485313")
+          withAdUnitID: "ca-app-pub-1154410420357813/6968179284")
       adRequestInProgress = true
     }
 
