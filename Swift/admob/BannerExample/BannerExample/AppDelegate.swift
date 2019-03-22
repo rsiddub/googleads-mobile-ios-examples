@@ -16,7 +16,7 @@
 
 import GoogleMobileAds
 import UIKit
-
+let AdMobAppId = "ca-app-pub-1154410420357813~2364981068"
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -26,8 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
       didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
     // Initialize Google Mobile Ads SDK
-    GADMobileAds.sharedInstance().start(completionHandler: nil)
-
+    GADMobileAds.configure(withApplicationID: AdMobAppId)
+    //GADMobileAds.sharedInstance().start(completionHandler: nil)
+    
     return true
   }
 

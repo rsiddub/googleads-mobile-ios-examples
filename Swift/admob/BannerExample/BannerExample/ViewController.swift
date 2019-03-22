@@ -15,7 +15,9 @@
 //
 
 import GoogleMobileAds
+import GoogleMobileAdsMediationTestSuite
 import UIKit
+let AdmMobVideoRewardAdUnitId = ""
 
 class ViewController: UIViewController {
 
@@ -25,9 +27,15 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     print("Google Mobile Ads SDK version: \(GADRequest.sdkVersion())")
-    bannerView.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+    bannerView.adUnitID = AdmMobVideoRewardAdUnitId
     bannerView.rootViewController = self
     bannerView.load(GADRequest())
   }
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        presentTestSuit()
+    }
+    func presentTestSuit() {
+        GoogleMobileAdsMediationTestSuite.present(withAppID: AdMobAppId, on: self, delegate: nil)
+    }
 }

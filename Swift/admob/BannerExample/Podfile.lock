@@ -1,4 +1,5 @@
 PODS:
+  - AdColony (3.3.6)
   - Google-Mobile-Ads-SDK (7.42.0):
     - GoogleAppMeasurement (~> 5.7)
   - GoogleAppMeasurement (5.7.0):
@@ -7,6 +8,20 @@ PODS:
     - GoogleUtilities/Network (~> 5.2)
     - "GoogleUtilities/NSData+zlib (~> 5.2)"
     - nanopb (~> 0.3)
+  - GoogleMobileAdsMediationAdColony (3.3.6.1):
+    - AdColony (= 3.3.6)
+    - Google-Mobile-Ads-SDK (>= 7.41.0)
+  - GoogleMobileAdsMediationTestSuite (0.9.3):
+    - Google-Mobile-Ads-SDK (>= 7.10.1)
+    - MaterialComponents/Cards (~> 76.0)
+    - MaterialComponents/Dialogs (~> 76.0)
+    - MaterialComponents/Tabs (~> 76.0)
+  - GoogleMobileAdsMediationUnity (3.0.0.3):
+    - Google-Mobile-Ads-SDK (>= 7.41.0)
+    - UnityAds (= 3.0.0)
+  - GoogleMobileAdsMediationVungle (6.3.2.1):
+    - Google-Mobile-Ads-SDK (>= 7.14.0)
+    - VungleSDK-iOS (= 6.3.2)
   - GoogleUtilities/AppDelegateSwizzler (5.5.0):
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
@@ -23,28 +38,105 @@ PODS:
   - "GoogleUtilities/NSData+zlib (5.5.0)"
   - GoogleUtilities/Reachability (5.5.0):
     - GoogleUtilities/Logger
+  - MaterialComponents/AnimationTiming (76.1.2)
+  - MaterialComponents/Buttons (76.1.2):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - MaterialComponents/Cards (76.1.2):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Icons/ic_check_circle
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Shapes
+  - MaterialComponents/Dialogs (76.1.2):
+    - MaterialComponents/Buttons
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Ink (76.1.2):
+    - MaterialComponents/private/Math
+  - MaterialComponents/private/Application (76.1.2)
+  - MaterialComponents/private/Icons/Base (76.1.2)
+  - MaterialComponents/private/Icons/ic_check_circle (76.1.2):
+    - MaterialComponents/private/Icons/Base
+  - MaterialComponents/private/KeyboardWatcher (76.1.2):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (76.1.2)
+  - MaterialComponents/ShadowElevations (76.1.2)
+  - MaterialComponents/ShadowLayer (76.1.2):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Shapes (76.1.2):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/Tabs (76.1.2):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - MaterialComponents/Typography (76.1.2):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MDFTextAccessibility (2.0.0)
   - nanopb (0.3.901):
     - nanopb/decode (= 0.3.901)
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - UnityAds (3.0.0)
+  - VungleSDK-iOS (6.3.2)
 
 DEPENDENCIES:
   - Google-Mobile-Ads-SDK
+  - GoogleMobileAdsMediationAdColony
+  - GoogleMobileAdsMediationTestSuite
+  - GoogleMobileAdsMediationUnity
+  - GoogleMobileAdsMediationVungle
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AdColony
     - Google-Mobile-Ads-SDK
     - GoogleAppMeasurement
+    - GoogleMobileAdsMediationAdColony
+    - GoogleMobileAdsMediationTestSuite
+    - GoogleMobileAdsMediationUnity
+    - GoogleMobileAdsMediationVungle
     - GoogleUtilities
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
     - nanopb
+    - UnityAds
+    - VungleSDK-iOS
 
 SPEC CHECKSUMS:
+  AdColony: 68473450de30de67154675c3512353a55c8f97cc
   Google-Mobile-Ads-SDK: c7bec408202526ec4e9ccd025c00f9f30e9f8807
   GoogleAppMeasurement: 6cf307834da065863f9faf4c0de0a936d81dd832
+  GoogleMobileAdsMediationAdColony: 956b663edf7b77d83780b71fc89a2b74f9b9b0ef
+  GoogleMobileAdsMediationTestSuite: 6fb5e57a4881314cc8e37f37d0ab1f283f37ec94
+  GoogleMobileAdsMediationUnity: aa6a9324d081f8447d27b94d1f1abc0351e43420
+  GoogleMobileAdsMediationVungle: 83ed56c7b3e5d87095dcb668dd0d8ca92a49030a
   GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
+  MaterialComponents: 1aef341d47fbaed37ddb5163a01af94cb6da8506
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  UnityAds: ff7c0f477873f40daccd7c0bd0b656cb6cf5a2e5
+  VungleSDK-iOS: 69a7f407b60281d2954ffc5eeeac349fbfed51d6
 
-PODFILE CHECKSUM: 7f54549ef5e0156a58d0457c3dbaf520ed68ad7f
+PODFILE CHECKSUM: 8b77cf0f7daa297ff50fe77140463113ff997c62
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1
